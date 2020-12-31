@@ -1,0 +1,8 @@
+node_modules
+e2e
+src/main.ts
+src/environments/**/*.ts
+jest.setup.ts
+jest.config.js
+dist
+karma.conf.js

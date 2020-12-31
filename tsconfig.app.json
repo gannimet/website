@@ -11,5 +11,9 @@
   ],
   "include": [
     "src/**/*.d.ts"
+  ],
+  "exclude": [
+    "jest.config.js",
+    "jest.setup.ts",
   ]
 }
