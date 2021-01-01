@@ -96,6 +96,7 @@ module.exports = {
         '@typescript-eslint/no-implied-eval': 'off',
         '@typescript-eslint/no-throw-literal': 'off',
         'import/no-extraneous-dependencies': 'off',
+        '@typescript-eslint/naming-convention': 'off',
       },
     },
   ],
