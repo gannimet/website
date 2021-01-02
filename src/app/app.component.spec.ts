@@ -25,8 +25,6 @@ describe('AppComponent', () => {
   it('should render current year in footer', () => {
     const footer = fixture.debugElement.query(By.css('footer'));
 
-    expect(footer.nativeElement.textContent).toContain(
-      new Date().getFullYear()
-    );
+    expect(footer.nativeElement.textContent).toContain(new Date().getFullYear());
   });
 });
