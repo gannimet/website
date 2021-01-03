@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "predeploy": "npm run lint && npm run test && npm run build",
+    "deploy": "scp -r dist/website/* richardw@chaldene.uberspace.de:/home/richardw/html",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
